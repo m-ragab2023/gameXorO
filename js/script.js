@@ -54,7 +54,7 @@ function rule_game(id){
          ele.innerHTML ="X"
          rule = "O"
          title.innerHTML = "O"
-    }else{
+    }else if(rule==="O" && ele.innerHTML ===""){
         ele.innerHTML ="O"
          rule = "X"
          title.innerHTML = "X"  
